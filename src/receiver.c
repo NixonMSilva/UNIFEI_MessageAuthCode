@@ -73,5 +73,7 @@ int main ()
     // Prints the plain text
     printf("Full text:\n%s\n", fullText);
 
+    fclose(outputFile);
+
     return 1;
 }
