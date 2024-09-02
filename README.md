@@ -1,7 +1,8 @@
 # Projeto de Criptografia e Hashing em C - SIN414
 
 Este é um projeto simples em C para criptografar mensagens usando um algoritmo XOR e calcular hashes usando o algoritmo djb2. Ele consiste em dois programas: um para enviar mensagens criptografadas (sender) e outro para receber e validar essas mensagens (receiver).
-Funcionalidades
+
+## Funcionalidades
 
     sender.c: Lê mensagens de um arquivo de entrada (input.txt), criptografa cada mensagem usando uma chave inserida pelo usuário, calcula o hash da mensagem criptografada e armazena a mensagem criptografada e o hash em um arquivo de saída (output.txt).
 
